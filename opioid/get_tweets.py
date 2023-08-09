@@ -5,15 +5,11 @@ import datetime
 import json
 import os
 
-'''
-Access token :709847542805061632-shB6hKIdPSy5phvdCSjX9nb1DlFhqSL
-Access token secret :3a20PfidarvYfbKOviZP9tWXax6jnGXbNzEZElqgTCiSd
-'''
 # authorization tokens
-consumer_key = "KgetwY2LfPQRbFXg7vsyKdoix"  # Add your API key here
-consumer_secret = "y2sS7sjcwwq0c5zWQv7w8CDsmTbjEVAjiRqLlcH2slmyoEjQ48"  # Add your API secret key here
-access_key = "709847542805061632-shB6hKIdPSy5phvdCSjX9nb1DlFhqSL"
-access_secret = "3a20PfidarvYfbKOviZP9tWXax6jnGXbNzEZElqgTCiSd"
+consumer_key = input("Enter your API key: ")
+consumer_key = input("Enter your API secret key: ")
+access_key = input("Enter your access token key: ")
+access_secret = input("Enter your access token secret key: ")
 
 
 # StreamListener class inherits from tweepy.StreamListener and overrides on_status/on_error methods.
